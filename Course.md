@@ -4,7 +4,7 @@
 
 ![Alt text](/images/data_model_udemy_course.png?raw=true "Data Model")
 
-## Questions
+## Script Questions
 
 1. Provide a table for all web_events associated with account name of Walmart. There should be three columns. Be sure to include the primary_poc, time of the event, and the channel for each event. Additionally, you might choose to add a fourth column to assure only Walmart events were chosen. 
 
@@ -58,3 +58,19 @@ WHERE a.name='Walmart'
    ```
 
    - Notes: in your SELECT statement you only choose the columns you want to see in the final QUERY. I made the mistake of selecting all the columns, thinking that SQL needed these to perform the joins. In reality, SQL must already have access to all columns and the SELECT statement is just to produce what the user wants in the final output. I also had to create a different name for the accounts_name. It had the same name as the region name column and wasn't showing up in the final query. I will need to go back to question 2 and fix this. I also started with orders and worked my way backwards to perform the necessary joins.
+
+### Fact Questions (All are True)
+
+#### 1 of 2
+
+Mark all the below that are true.  
+
+- The **ON** statement **should** always occur with the foreign key being equal to the primary key.
+- **JOIN** statements allow us to pull data from multiple tables in a **SQL** database.
+- You can use all of the commands we saw in the first lesson along with **JOIN** statements.
+
+#### 2 of 2
+
+Select all of the below statements that are true.
+
+- Aliasing is common to shorten table names when we start **JOIN**ing multiple tables together.  
