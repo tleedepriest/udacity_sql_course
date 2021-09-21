@@ -28,12 +28,8 @@ WHERE a.name='Walmart'
 
    ```SQL
    SELECT 
-   	sr.region_id,
-   	sr.name,
-   	sr.id,
-   	a.name,
-   	a.sales_rep_id,
-   	r.id,
+   	sr.name sr_name,
+   	a.name ac_name,
    	r.name
    FROM sales_reps sr
    JOIN accounts a
